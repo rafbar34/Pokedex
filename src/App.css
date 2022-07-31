@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-btn {
+  width: 50%;
+  height: 50px;
+  background: rgb(77,218,51);
+background: linear-gradient(0deg, rgba(77,218,51,0.4629202022605917) 26%, rgba(51,218,61,0.7906512946975666) 65%, rgba(51,218,61,0.49653364763874297) 100%, rgba(70,218,31,0.8018557764902836) 100%);
+  border-radius: 20px 20px 0px 0px;
+  transition: 1s;
+}
+.theme-btn:hover {
+  opacity: 0.8;
+}
+.bgHeight {
+  height: 1800px;
+}
